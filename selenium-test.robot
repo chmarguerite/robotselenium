@@ -6,7 +6,7 @@ Test Template       Connexion réussie
 
 *** Variables ***
 ${LOGIN URL}      http://demo.glpi-project.org
-${BROWSER}        ie
+${BROWSER}        firefox
 
 *** Test Cases ***		username	password	fullname
 Connexion Admin			admin		admin		admin
